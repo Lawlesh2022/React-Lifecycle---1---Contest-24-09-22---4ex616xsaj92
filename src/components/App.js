@@ -16,7 +16,8 @@ class App extends React.Component {
   }
 
   render() {
-    return (
+     consolelog("rendered")
+    return (    
       <div id="main">
           <div id="count">{this.state.count}</div>
           <button id="incr" onClick={this.handleClick}>Increment</button>
